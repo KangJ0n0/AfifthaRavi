@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /mailto:afiftharavi@gmail.com
+Disallow: /resume/profile.pdf
+
+Sitemap: http://afiftharavi.my.id/sitemap.xml
