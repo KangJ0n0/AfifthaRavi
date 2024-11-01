@@ -43,7 +43,10 @@ export default defineNuxtConfig({
           content:
             "Hi, I am Afiftha Ravi. This is my Personal Portfolio Website. Currently focused on website and mobile development using Nuxt and Flutter. Checkout my projects and github repositories",
         },
-        // sharing thumbmail img
+        {
+          property: "og:image",
+          content: "/thumbnail.png",
+        },
 
         // google site verification
         {

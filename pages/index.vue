@@ -5,13 +5,18 @@ useHead({
   meta: [
     {
       property: "og:site",
-      content: "http://afiftharavi.my.id/",
+      content: "http://afiftharavi.my.id/about",
     },
   ],
 });
 </script>
+
 <template>
-  <NuxtLayout name="default">
+  <suspense>
+    <Pageloader />
+  </suspense>
+  <NuxtLayout name="loader">
+    <NavBar />
     <div class="about-section">
       <Profile />
       <div class="empty-left-content"></div>
@@ -61,5 +66,6 @@ useHead({
         <HobbySection :hobbies="hobbies" />
       </div>
     </div>
+    <Footer />
   </NuxtLayout>
 </template>

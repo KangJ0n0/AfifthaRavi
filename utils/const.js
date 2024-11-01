@@ -94,9 +94,9 @@ export function useConstants() {
       height: 150,
     },
     {
-      imgUrl: "/logos/jest-plain.svg",
-      name: "Jest",
-      alt: "Jest logo",
+      imgUrl: "/logos/elysia-logo.svg",
+      name: "ElysiaJS",
+      alt: "Elysia logo",
       width: 150,
       height: 150,
     },
@@ -143,7 +143,7 @@ export function useConstants() {
   ];
   const hobbies = [
     {
-      title: "Learning a Language",
+      title: "Learning Language",
       text: "Adds a new skill and may open up travel, career, or networking opportunities.",
       classBg: "bg-languange",
     },
