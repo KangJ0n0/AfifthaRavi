@@ -21,11 +21,8 @@
           <div>
             <h2>Get in touch with me</h2>
             <p v-if="isSeeking">
-              I'm currently seeking opportunities to work with companies that
-              can improve my skills not just in tech but also to be able to
-              learn to lead and teach others. If I am the person you are looking
-              for, feel free to reach me through email or my contact information
-              in my resume.
+              If I am the person you are looking for, feel free to reach me
+              through email or my contact information in my resume.
             </p>
 
             <p v-else>
@@ -40,7 +37,7 @@
             </a>
             <a
               v-if="isSeeking"
-              href="/resume/profile.pdf"
+              href="/resume/Profile.pdf"
               download="resume-afiftharavi.pdf"
               target="_blank"
             >

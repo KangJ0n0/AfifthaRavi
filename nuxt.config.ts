@@ -45,7 +45,7 @@ export default defineNuxtConfig({
         },
         {
           property: "og:image",
-          content: "/thumbnail.png",
+          content: "/profile-pics/thumbnail.png",
         },
 
         // google site verification
@@ -54,7 +54,7 @@ export default defineNuxtConfig({
           content: "CpKqeACrIS7JLwdilAnMgoDicJnoBaNmupPoq6fUtFs",
         },
       ],
-      link: [{ rel: "icon", href: "/favicon-bw.png" }],
+      link: [{ rel: "icon", type: "image/png", href: "/favicon-bw.png" }],
     },
   },
 
