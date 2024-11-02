@@ -41,7 +41,7 @@
             <a
               v-if="isSeeking"
               href="/resume/profile.pdf"
-              download="resume_afiftharavi"
+              download="resume-afiftharavi.pdf"
               target="_blank"
             >
               <PaperClipIcon /> My Resume

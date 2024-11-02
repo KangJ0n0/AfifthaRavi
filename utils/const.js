@@ -133,14 +133,44 @@ export function useConstants() {
   const editSet = [
     {
       name: "Adobe Photoshop",
-      imgUrl: "/logos/photoshop.png",
-      alt: "Photoshop",
-      width: 50,
-      height: 50,
+      imgUrl: "/logos/photoshop.svg",
+      alt: "Adobe Photoshop Logo",
+      width: 150,
+      height: 150,
     },
-
-    // Add more Editing skills here
+    {
+      name: "Figma",
+      imgUrl: "/logos/figma.svg",
+      alt: "Figma Logo",
+      width: 150,
+      height: 150,
+    },
   ];
+
+  const otherSet = [
+    {
+      name: "Godot Engine",
+      imgUrl: "/logos/godot.svg",
+      alt: "Godot Engine Logo",
+      width: 150,
+      height: 150,
+    },
+    {
+      name: "Arduino",
+      imgUrl: "/logos/arduino.svg",
+      alt: "Arduino Logo",
+      width: 150,
+      height: 150,
+    },
+    {
+      name: "Cisco Packet Tracer",
+      imgUrl: "/logos/cisco.svg",
+      alt: "Cisco Packet Tracer Logo",
+      width: 150,
+      height: 150,
+    },
+  ];
+
   const hobbies = [
     {
       title: "Learning Language",
@@ -216,6 +246,17 @@ export function useConstants() {
   // new timeline
   const timeline = [
     {
+      logo: "/logos/solusidigitalmuda.png",
+      logoBorderColor: "#FFFFFF",
+      companyName: "Solusi Digital Muda.",
+      duration: "October 2024 - Current",
+      jobScope: [
+        "Established and led Solusi Digital Muda with a focus on innovative digital solutions, enabling clients to achieve transformative growth and scalability in a competitive digital landscape.",
+        "Helping businesses navigate technology challenges, improve operational efficiency, and leverage the latest tech innovations.",
+        "Building visually appealing, user-friendly websites that align with clients' brand goals and enhance online presence.",
+      ],
+    },
+    {
       logo: "/logos/quadrantio.jpg",
       logoBorderColor: "#1C63A2",
       companyName: "Quadrant.io.",
@@ -244,5 +285,7 @@ export function useConstants() {
     skillWithLogo,
     projects,
     timeline,
+    editSet,
+    otherSet,
   };
 }

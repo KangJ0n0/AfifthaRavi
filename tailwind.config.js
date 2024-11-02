@@ -34,6 +34,15 @@ module.exports = {
         "top-right": "-12px -8px 24px -12px #666565",
         around: "0px 0px 17px 2px rgba(255, 255, 255, 0.43)",
       },
+      keyframes: {
+        slideInLeft: {
+          "0%": { transform: "translateX(-70px)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+      },
+      animation: {
+        slideInLeft: "slideInLeft 0.7s ease-out",
+      },
     },
   },
 };

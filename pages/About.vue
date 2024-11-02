@@ -18,10 +18,12 @@ useHead({
       <div class="right-content">
         <section>
           <p class="mt-2">
-            Hi there! I'm a programmer with a background in software
-            engineering, enjoy diving into programming, particularly web and
-            mobile development. I'm open to collaborating on any opportunities.
-            Currently studying as an Informatics student at
+            Hi there! I'm
+            <b class="text-gray-800 dark:text-gray-200">Afiftha Ravi</b> a
+            programmer with a background in software engineering, enjoy diving
+            into programming, particularly web and mobile development. I'm open
+            to collaborating on any opportunities. Currently studying as an
+            Informatics student at
             <a
               class="font-bold text-blue-700 dark:text-blue-400 hover:underline"
               href="https://unsoed.ac.id/"

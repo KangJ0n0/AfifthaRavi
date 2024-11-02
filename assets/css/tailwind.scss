@@ -274,6 +274,9 @@ section#skills {
       }
     }
   }
+  button {
+    @apply inline-flex items-center justify-center h-12 px-6 text-lg text-white font-medium bg-gradient-to-r transition duration-200 rounded shadow-md hover:shadow-gray-400;
+  }
 }
 
 // work section

@@ -3,6 +3,11 @@
     <NavBar />
 
     <slot />
+    <br />
+    <br />
+    <br />
+    <br />
+    <Footer style="position: fixed; bottom: 0; width: 100%; margin-top: 8px" />
   </div>
 </template>
 <script setup>
