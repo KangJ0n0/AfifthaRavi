@@ -19,7 +19,7 @@ useHead({
         <section>
           <p class="mt-2">
             Hi there! I'm
-            <b class="text-gray-800 dark:text-gray-200">Afiftha Ravi</b> a
+            <b class="text-gray-800 dark:text-gray-200">Afiftha Ravi Aufa</b> a
             programmer with a background in software engineering, enjoy diving
             into programming, particularly web and mobile development. I'm open
             to collaborating on any opportunities. Currently studying as an

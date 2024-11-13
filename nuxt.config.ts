@@ -16,14 +16,14 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "Hi, I am Afiftha Ravi. This is my Personal Portfolio Website. Currently focused on website and mobile development using Nuxt and Flutter. Checkout my projects and github repositories",
+            "Hi, I am Afiftha Ravi Aufa. This is my Personal Portfolio Website. Currently focused on website and mobile development using Nuxt and Flutter. Checkout my projects and github repositories",
         },
         { name: "format-detection", content: "telephone=no" },
-        { property: "author", content: "Afiftha Ravi" },
+        { property: "author", content: "Afiftha Ravi Aufa" },
         {
           name: "keywords",
           content:
-            "Fullstack Developer, Full Stack Developer, Afiftha Ravi, Junior Web Developer, Software Developer, Software Engineer, Jono, Afiftha, Ravi",
+            "Fullstack Developer, Full Stack Developer, Afiftha Ravi, Junior Web Developer, Software Developer, Software Engineer, Jono, Afiftha, Ravi, Afiftha Ravi Aufa",
         },
         // social meta tags
         {
@@ -41,7 +41,7 @@ export default defineNuxtConfig({
         {
           property: "og:description",
           content:
-            "Hi, I am Afiftha Ravi. This is my Personal Portfolio Website. Currently focused on website and mobile development using Nuxt and Flutter. Checkout my projects and github repositories",
+            "Hi, I am Afiftha Ravi Aufa. This is my Personal Portfolio Website. Currently focused on website and mobile development using Nuxt and Flutter. Checkout my projects and github repositories",
         },
         {
           property: "og:image",

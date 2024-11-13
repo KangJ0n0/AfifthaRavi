@@ -47,7 +47,7 @@
       </div>
 
       <div class="copyright">
-        © {{ CURRENT_YEAR }} - Present Afiftha Ravi. All rights reserved.
+        © {{ CURRENT_YEAR }} - Present Afiftha Ravi Aufa. All rights reserved.
       </div>
     </footer>
   </div>
