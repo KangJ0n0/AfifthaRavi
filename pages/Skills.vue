@@ -32,7 +32,7 @@ useHead({
     },
     {
       property: "og:site",
-      content: "http://afiftharavi.my.id/skills",
+      content: "http://afiftharavi.site/skills",
     },
   ],
 });

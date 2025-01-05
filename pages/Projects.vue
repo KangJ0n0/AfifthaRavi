@@ -14,7 +14,7 @@ useHead({
     },
     {
       property: "og:site",
-      content: "http://afiftharavi.my.id/projects",
+      content: "http://afiftharavi.site/projects",
     },
   ],
 });

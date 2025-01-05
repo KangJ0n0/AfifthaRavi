@@ -5,7 +5,7 @@ useHead({
   meta: [
     {
       property: "og:site",
-      content: "http://afiftharavi.my.id/",
+      content: "http://afiftharavi.site/",
     },
   ],
 });

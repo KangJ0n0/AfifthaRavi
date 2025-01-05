@@ -246,21 +246,10 @@ export function useConstants() {
   // new timeline
   const timeline = [
     {
-      logo: "/logos/solusidigitalmuda.png",
-      logoBorderColor: "#FFFFFF",
-      companyName: "Solusi Digital Muda.",
-      duration: "October 2024 - Current",
-      jobScope: [
-        "Established and led Solusi Digital Muda with a focus on innovative digital solutions, enabling clients to achieve transformative growth and scalability in a competitive digital landscape.",
-        "Helping businesses navigate technology challenges, improve operational efficiency, and leverage the latest tech innovations.",
-        "Building visually appealing, user-friendly websites that align with clients' brand goals and enhance online presence.",
-      ],
-    },
-    {
       logo: "/logos/quadrantio.jpg",
       logoBorderColor: "#1C63A2",
       companyName: "Quadrant.io.",
-      duration: "September 2024 - Current",
+      duration: "September 2024 - November 2024",
       jobScope: [
         "Working as a freelance, evaluated and approved photos for clarity, relevance, and compliance with project guidelines.",
         "Assessed POI data submitted by contributors to ensure quality, accuracy, and adherence to set standards.",

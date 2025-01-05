@@ -12,7 +12,7 @@ useHead({
     },
     {
       property: "og:site",
-      content: "http://afiftharavi.my.id/contact",
+      content: "http://afiftharavi.site/contact",
     },
   ],
 });
