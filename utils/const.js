@@ -198,6 +198,7 @@ export function useConstants() {
     {
       isReverse: true,
       title: "Warung Purba",
+
       titleColor: "text-white",
       filterColor: "bg-slate-900 bg-opacity-10",
       imageUrl: "/projects/warung.png",
@@ -205,6 +206,7 @@ export function useConstants() {
         "A web application designed to showcase local eateries and their culinary offerings in Purbalingga, Indonesia.",
       techStack: ["PHP", "Laravel", "TailwindCSS", "Node.js", "MySQL"],
       githubLink: "https://github.com/KangJ0n0/Warung-Purba",
+      category: "website",
     },
     {
       isReverse: true,
@@ -218,6 +220,7 @@ export function useConstants() {
       isUrl: true,
       urlLink: "https://weather-appli.vercel.app/",
       githubLink: "https://github.com/KangJ0n0/Weather-app",
+      category: "website",
     },
     {
       isReverse: false,
@@ -229,6 +232,7 @@ export function useConstants() {
         "an online crowdfunding platform where users can submit fundraising requests.",
       techStack: ["PHP", "Blade", "TailwindCSS", "MySQL", "Node.js"],
       githubLink: "https://github.com/KangJ0n0/Rantai-Kebaikan",
+      category: "website",
     },
     {
       isReverse: true,
@@ -240,11 +244,23 @@ export function useConstants() {
       techStack: ["PHP", "Blade", "LARAVEL", "TailwindCSS", "MySQL"],
       isUrl: false,
       githubLink: "https://github.com/KangJ0n0/Satuportal-Banyumaskab",
+      category: "website",
     },
   ];
 
   // new timeline
   const timeline = [
+    {
+      logo: "/logos/al-irsyad.png",
+      logoBorderColor: "transparent",
+      companyName: "Al Irsyad Al Islamiyyah Purwokerto",
+      duration: "January 2025 - Present",
+      jobScope: [
+        "Working as an extracurricular Robotic Club’s tutor at SDIT Al-Irsyad 01 Purwokerto",
+        "Guided students in exploring the fundamentals of robotics and programming.",
+        "Designed and delivered a curriculum covering Scratch Programming, Tinkercad Programming, and hands-on Arduino projects.",
+      ],
+    },
     {
       logo: "/logos/quadrantio.jpg",
       logoBorderColor: "#1C63A2",
@@ -255,6 +271,7 @@ export function useConstants() {
         "Assessed POI data submitted by contributors to ensure quality, accuracy, and adherence to set standards.",
       ],
     },
+
     {
       logo: "/logos/kominfo.jpg",
       logoBorderColor: "#FFFFFF",

@@ -1,24 +1,18 @@
 <script setup>
 import { ref } from "vue";
-import ProjectSection from "~/components/ProjectSection.vue";
-
-// Mock data for website and mobile projects
-const websiteProjects = [
-  { id: 1, name: "Portfolio Website", isReverse: false },
-  { id: 2, name: "E-commerce Store", isReverse: true },
-];
-const mobileProjects = [
-  { id: 1, name: "To-Do List App", isReverse: false },
-  { id: 2, name: "Travel Guide App", isReverse: true },
-];
-
-// State to track the current category
+import {
+  DevicePhoneMobileIcon,
+  ComputerDesktopIcon,
+} from "@heroicons/vue/24/outline";
 const currentCategory = ref("website");
 
 // Functions to toggle between categories
 const setToWebsite = () => (currentCategory.value = "website");
 const setToMobile = () => (currentCategory.value = "mobile");
-//const
+const filteredProjects = computed(() =>
+  projects.filter((project) => project.category === currentCategory.value),
+);
+
 const { projects } = useConstants();
 useHead({
   title: "Portfolio | Personal Projects",
@@ -41,7 +35,7 @@ useHead({
 <template>
   <NuxtLayout name="default">
     <div class="mt-8">
-      <h2 class="text-center text-2xl font-bold mb-4">My Personal Projects</h2>
+      <h2 class="techTitle animate-slideInLeft">Projects I've Worked On</h2>
 
       <!-- Category Buttons -->
       <div class="flex justify-center gap-4 mt-4">
@@ -49,35 +43,35 @@ useHead({
         <button
           @click="setToWebsite"
           :class="[
-            'px-6 py-3 rounded-lg shadow-md transition-transform duration-300 hover:scale-105',
+            'px-4 py-2 rounded-lg shadow-lg transition duration-300 transform hover:scale-105',
             currentCategory === 'website'
               ? 'bg-gradient-to-r from-blue-800 via-blue-600 to-blue-500 text-white'
               : 'bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 text-gray-800',
           ]"
         >
-          Website
+          <h3 class="flex items-center">
+            <ComputerDesktopIcon class="h-4 w-4 inline-block mr-2" /> Website
+          </h3>
         </button>
 
         <!-- Mobile Button -->
         <button
           @click="setToMobile"
           :class="[
-            'px-6 py-3 rounded-lg shadow-md transition-transform duration-300 hover:scale-105',
+            'px-4 py-2 rounded-lg shadow-lg transition duration-300 transform hover:scale-105',
             currentCategory === 'mobile'
               ? 'bg-gradient-to-r from-blue-800 via-blue-600 to-blue-500 text-white'
               : 'bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 text-gray-800',
           ]"
         >
-          Mobile
+          <h3 class="flex items-center">
+            <DevicePhoneMobileIcon class="h-4 w-4 inline-block mr-2" /> Mobile
+          </h3>
         </button>
       </div>
 
       <!-- Render ProjectSection -->
-      <ProjectSection
-        :projects="
-          currentCategory === 'website' ? websiteProjects : mobileProjects
-        "
-      />
+      <ProjectSection :projects="filteredProjects" />
     </div>
   </NuxtLayout>
 </template>
