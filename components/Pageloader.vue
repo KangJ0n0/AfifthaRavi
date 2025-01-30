@@ -20,7 +20,7 @@
 </template>
 
 <script setup>
-import { ref, reactive, onMounted, defineProps, defineEmits } from "vue";
+import { ref, reactive, onMounted } from "vue";
 
 const props = defineProps({
   progressBarSpeed: {

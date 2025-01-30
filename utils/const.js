@@ -246,6 +246,18 @@ export function useConstants() {
       githubLink: "https://github.com/KangJ0n0/Satuportal-Banyumaskab",
       category: "website",
     },
+    {
+      isReverse: false,
+      title: "EMMA",
+      titleColor: "text-white",
+      filterColor: "bg-slate-900 bg-opacity-10",
+      imageUrl: "/projects/emma.png",
+      description:
+        "A mobile app that helps users prioritize tasks using the Eisenhower Matrix. The app categorizes tasks into four quadrants to ensure focus on what matters most.",
+      techStack: ["Flutter", "Firebase"],
+      githubLink: "https://github.com/KangJ0n0/EMMA",
+      category: "mobile",
+    },
   ];
 
   // new timeline
