@@ -26,8 +26,8 @@
         </a>
 
         <a
-          href="https://www.linkedin.com/in/yzpo/"
-          aria-label="https://www.linkedin.com/in/afiftha-ravi/"
+          href="https://www.linkedin.com/in/afiftha-ravi/"
+          aria-label="LinkedIn"
           target="blank"
         >
           <IconsLinkedInIcon />
