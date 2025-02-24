@@ -2,21 +2,17 @@ export function useConstants() {
   const navigation = [
     {
       id: 1,
-      name: "About",
-      href: "/about",
+      name: "Home",
+      href: "/home",
     },
+
     {
       id: 2,
-      name: "Skills",
-      href: "/skills",
-    },
-    {
-      id: 4,
       name: "Projects",
       href: "/projects",
     },
     {
-      id: 5,
+      id: 3,
       name: "Contact",
       href: "/contact",
     },

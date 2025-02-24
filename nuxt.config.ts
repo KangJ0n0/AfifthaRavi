@@ -32,7 +32,7 @@ export default defineNuxtConfig({
         },
         {
           property: "og:site",
-          content: "http://afiftharavi.my.id/",
+          content: "http://afiftharavi.site/",
         },
         {
           property: "og:title",

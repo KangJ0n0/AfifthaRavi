@@ -254,30 +254,6 @@ header {
 // }
 
 // skill section
-section#skills {
-  @apply flex flex-col items-center px-1;
-  @include section-vertical-padding;
-
-  div {
-    @apply mb-4 lg:mb-8;
-  }
-
-  ul {
-    @apply flex flex-wrap justify-center lg:w-10/12 2xl:w-8/12 3xl:w-7/12;
-
-    li {
-      @include sub-font-family;
-      @apply w-[29%] md:w-[22%] lg:w-1/5 xl:w-[15%] dark:border-2 border-gray-50 rounded-md bg-white dark:bg-transparent font-semibold md:text-xl p-2 md:px-6 shadow hover:shadow-lg dark:hover:shadow-around dark:hover:shadow-white mx-2 mt-4 lg:mt-0 lg:mb-4 2xl:mb-6 cursor-default transition ease-out duration-500;
-
-      p {
-        @apply mt-1 text-center dark:text-white;
-      }
-    }
-  }
-  button {
-    @apply inline-flex items-center justify-center h-12 px-6 text-lg text-white font-medium bg-gradient-to-r transition duration-200 rounded shadow-md hover:shadow-gray-400;
-  }
-}
 
 // work section
 section#works {
