@@ -1,11 +1,13 @@
 <template>
-  <div>
+  <div class="layout-wrapper">
     <NavBar />
-
-    <slot />
+    <main class="flex-1">
+      <slot />
+    </main>
     <Footer />
   </div>
 </template>
+
 <script setup>
 const runtimeConfig = useRuntimeConfig();
 const gtag = `
@@ -34,3 +36,15 @@ useHead({
   ],
 });
 </script>
+
+<style scoped>
+.layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1; /* Pushes footer to bottom when content is short */
+}
+</style>

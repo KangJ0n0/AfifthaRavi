@@ -34,13 +34,11 @@ onMounted(() => {
     .from(".project-title", { opacity: 0, translateX: "-100px" })
     .to(".project-title", { opacity: 1, translateX: "0px", duration: 0.5 });
 
-  gsap.set(".project-card", { opacity: 0, y: 20 });
-  ScrollTrigger.batch(".project-card", {
-    start: "-130px center",
-    end: "top center",
-    onEnter: (batch) =>
-      gsap.to(batch, { opacity: 1, y: 0, autoAlpha: 1, stagger: 0.15 }),
-  });
+  gsap.fromTo(
+    ".project-card",
+    { opacity: 0, y: 20 },
+    { opacity: 1, y: 0, stagger: 0.15, duration: 0.5 },
+  );
 });
 </script>
 
