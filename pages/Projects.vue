@@ -47,8 +47,8 @@ useHead({
           :class="[
             'px-4 py-2 rounded-lg shadow-lg transition duration-300 transform hover:scale-105',
             currentCategory === 'website'
-              ? 'bg-white text-black dark:bg-gray-900 dark:text-white'
-              : 'bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-200',
+              ? 'bg-gray-200 text-black dark:bg-gray-900 dark:text-white'
+              : 'bg-white text-gray-800 dark:bg-gray-700 dark:text-gray-200',
           ]"
         >
           <h3 class="flex items-center">
@@ -62,8 +62,8 @@ useHead({
           :class="[
             'px-4 py-2 rounded-lg shadow-lg transition duration-300 transform hover:scale-105',
             currentCategory === 'mobile'
-              ? 'bg-white text-black dark:bg-gray-900 dark:text-white'
-              : 'bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-200',
+              ? 'bg-gray-200 text-black dark:bg-gray-900 dark:text-white'
+              : 'bg-white text-gray-800 dark:bg-gray-700 dark:text-gray-200',
           ]"
         >
           <h3 class="flex items-center">
