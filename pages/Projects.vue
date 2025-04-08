@@ -41,13 +41,14 @@ useHead({
 
       <!-- Category Buttons -->
       <div class="flex justify-center gap-4 mt-4">
+        <!-- Website Button -->
         <button
           @click="currentCategory = 'website'"
           :class="[
             'px-4 py-2 rounded-lg shadow-lg transition duration-300 transform hover:scale-105',
             currentCategory === 'website'
-              ? 'bg-gradient-to-r from-blue-800 via-blue-600 to-blue-500 text-white'
-              : 'bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 text-gray-800',
+              ? 'bg-white text-black dark:bg-gray-900 dark:text-white'
+              : 'bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-200',
           ]"
         >
           <h3 class="flex items-center">
@@ -55,13 +56,14 @@ useHead({
           </h3>
         </button>
 
+        <!-- Mobile Button -->
         <button
           @click="currentCategory = 'mobile'"
           :class="[
             'px-4 py-2 rounded-lg shadow-lg transition duration-300 transform hover:scale-105',
             currentCategory === 'mobile'
-              ? 'bg-gradient-to-r from-blue-800 via-blue-600 to-blue-500 text-white'
-              : 'bg-gradient-to-r from-gray-200 via-gray-300 to-gray-400 text-gray-800',
+              ? 'bg-white text-black dark:bg-gray-900 dark:text-white'
+              : 'bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-200',
           ]"
         >
           <h3 class="flex items-center">
