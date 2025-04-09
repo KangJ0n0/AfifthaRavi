@@ -13,6 +13,16 @@ export function useConstants() {
     },
     {
       id: 3,
+      name: "Blog",
+      href: "/blog",
+    },
+    {
+      id: 4,
+      name: "Certificates",
+      href: "/certificates",
+    },
+    {
+      id: 5,
       name: "Contact",
       href: "/contact",
     },
