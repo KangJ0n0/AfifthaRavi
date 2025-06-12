@@ -5,11 +5,16 @@
     @mouseleave="hovered = false"
   >
     <div class="project-img-container">
+      <div v-if="!imageLoaded" class="image-loading">
+        <div class="loading-shimmer"></div>
+      </div>
       <img
         :src="projectDetails.imageUrl"
         width="535"
         height="261"
         alt="project image"
+        @load="onImageLoad"
+        :class="{ 'opacity-0': !imageLoaded }"
       />
       <div :class="projectDetails.filterColor"></div>
     </div>
@@ -89,6 +94,9 @@
 </template>
 <script setup>
 import { TransitionRoot } from "@headlessui/vue";
+import { ref, onMounted } from "vue";
+import gsap from "gsap";
+
 const props = defineProps({
   // isReverse: {
   //   type: Boolean,
@@ -103,10 +111,57 @@ const props = defineProps({
 });
 
 let hovered = ref(false);
+let imageLoaded = ref(false);
+
+const onImageLoad = () => {
+  imageLoaded.value = true;
+  gsap.to(".project-img-container img", {
+    opacity: 1,
+    duration: 0.5,
+    ease: "power2.out"
+  });
+};
+
+onMounted(() => {
+  gsap.set(".project-img-container img", { opacity: 0 });
+});
 </script>
 <style lang="scss" scoped>
 .imgContainer {
   height: 200px;
   width: 200px;
+}
+
+.image-loading {
+  @apply absolute inset-0 bg-gray-200 dark:bg-gray-700;
+  overflow: hidden;
+}
+
+.loading-shimmer {
+  @apply absolute inset-0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    transparent 100%
+  );
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.project-img-container {
+  @apply relative;
+  
+  img {
+    @apply transition-opacity duration-300;
+  }
 }
 </style>
