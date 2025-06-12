@@ -207,7 +207,7 @@ export function useConstants() {
 
       titleColor: "text-white",
       filterColor: "bg-slate-900 bg-opacity-10",
-      imageUrl: "/projects/warung.png",
+      imageUrl: "/projects/warung.webp",
       description:
         "A web application designed to showcase local eateries and their culinary offerings in Purbalingga, Indonesia.",
       techStack: ["PHP", "Laravel", "TailwindCSS", "Node.js", "MySQL"],
@@ -219,7 +219,7 @@ export function useConstants() {
       title: "Weather App",
       titleColor: "text-white",
       filterColor: "bg-slate-900 bg-opacity-10",
-      imageUrl: "/projects/weather.png",
+      imageUrl: "/projects/weather.webp",
       description:
         "A simple website that use for check the weather, build with Vue.js, Tailwind CSS, and WeatherAPI",
       techStack: ["Vue", "TailwindCSS", "WeatherAPI", "Node.js"],
@@ -233,7 +233,7 @@ export function useConstants() {
       title: "Rantai Kebaikan",
       titleColor: "text-white",
       filterColor: "bg-slate-900 bg-opacity-10",
-      imageUrl: "/projects/rantai.png",
+      imageUrl: "/projects/rantai.webp",
       description:
         "an online crowdfunding platform where users can submit fundraising requests.",
       techStack: ["PHP", "Blade", "TailwindCSS", "MySQL", "Node.js"],
@@ -245,7 +245,7 @@ export function useConstants() {
       title: "Satuportal Bayumas",
       titleColor: "text-white",
       filterColor: "bg-slate-900 bg-opacity-10",
-      imageUrl: "/projects/satuportal.png",
+      imageUrl: "/projects/satuportal.webp",
       description: "Redesign for SatuPortal Banyumas Website",
       techStack: ["PHP", "Blade", "LARAVEL", "TailwindCSS", "MySQL"],
       isUrl: false,
@@ -257,7 +257,7 @@ export function useConstants() {
       title: "EMMA",
       titleColor: "text-white",
       filterColor: "bg-slate-900 bg-opacity-10",
-      imageUrl: "/projects/emma.png",
+      imageUrl: "/projects/emma.webp",
       description:
         "A mobile app that helps users prioritize tasks using the Eisenhower Matrix. The app categorizes tasks into four quadrants to ensure focus on what matters most.",
       techStack: ["Flutter", "Firebase"],
